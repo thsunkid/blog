@@ -1,6 +1,6 @@
 baseURL = "https://thsunkid.com"
-theme = "cactus"
-title = "Thu Nguyen"
+languageCode = "en-us"
+title = "Thu Nguyen's page"
 theme = "cactus"
 Copyright = "Thu Nguyen"
 #"elementary"

@@ -1,4 +1,5 @@
-baseURL = "https://thsunkid.com/"
+baseURL = ""
+command = "hugo -b $URL"
 languageCode = "en-us"
 title = "Thu Nguyen"
 theme = "cactus"

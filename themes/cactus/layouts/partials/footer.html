@@ -1,0 +1,24 @@
+<footer id="footer">
+  {{ if (eq .IsHome true)}}
+    <div class="footer-home">
+      <blockquote>“... in the open sky, he found risk, death, and glory.“</blockquote>
+    </div>
+  {{ end }}
+  
+  {{ if (eq .Type "posts")}}
+  <div class="footer-posts">
+    <nav>
+      <ul>
+        {{ range .Site.Menus.main }} 
+          {{ if (ne .Name "Blog")}}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      <ul>  
+      </ul>
+    </nav>
+  </div>
+  {{ end }}
+
+</footer>

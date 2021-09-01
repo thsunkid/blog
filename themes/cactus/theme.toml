@@ -1,0 +1,13 @@
+name = "simplerCactus"
+license = "MIT"
+description = "Forked from hexo theme cactus created by @monkeyWzr."
+
+# If the theme has a single author
+[author]
+    name = "Thu Nguyen"
+
+# If porting an existing theme
+[original]
+    author = "Zeran Wu"
+    homepage = "https://github.com/monkeyWzr"
+    repo = "https://github.com/monkeyWzr/hugo-theme-cactus"

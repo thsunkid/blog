@@ -1,0 +1,59 @@
+baseURL = "https://thsunkid.com/"
+languageCode = "en-us"
+title = "Thu Nguyen"
+theme = "cactus"
+Copyright = "Thu Nguyen"
+#"elementary"
+
+
+
+# summaryLength = 2
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[params]
+  #description = "This is the collections of my uncontrollable thoughts"
+  colortheme = "white"
+  mainSection = "posts"
+  showAllPostsOnHomePage = true
+  postsOnHomePage = 5 # this option will be ignored
+  tagsOverview = false
+  mainSectionTitle = "Blog"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/thsunkid"
+
+[[params.social]]
+  name = "email"
+  link = "thesunkid19@gmail.com" 
+
+[[params.social]]
+  name = "twitter"
+  link = "https://twitter.com/thunm_"

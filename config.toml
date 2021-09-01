@@ -1,5 +1,4 @@
-baseURL = ""
-command = "hugo -b $URL"
+baseURL = "https://peaceful-kilby-f85e81.netlify.app/"
 languageCode = "en-us"
 title = "Thu Nguyen"
 theme = "cactus"

@@ -9,4 +9,4 @@ Welcome to my blog.
 
 I started this blog to practice writing and share my thoughts with anyone who might be interested.
 
-For whatever reason, thank you for stumbling here. Hope you have a great day!
+For whatever reason, thank you for stumbling here. Hope you have a great time!

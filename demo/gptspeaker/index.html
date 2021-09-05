@@ -61,10 +61,10 @@
       $('#results').html('');
       for (var i = 0; i < data.length; i++) {
         var len = data.length - 1
-        var path = 'pics/'+data[len-i].image_id + '.jpg';
+        var path = 'pics/'+data[i].image_id + '.jpg';
         $('<div class="result">')
           .data('image', path)
-          .append('<p> Trait:'+data[len-i].trait+'<br> Caption: '+data[len-i].caption + '</p>')
+          .append('<p> Trait:'+data[i].trait+'<br> Caption: '+data[i].caption + '</p>')
           .appendTo('#results');
       }
       loadVisible();

@@ -39,10 +39,6 @@
   {{ end }}
   {{ end }}
   {{ if .Site.GoogleAnalytics }}
-  {{ if .Site.Params.googleAnalyticsAsync }}
-    {{ template "_internal/google_analytics_async.html" . }}
-  {{ else }}
     {{ template "_internal/google_analytics.html" . }}
-  {{ end }}
   {{ end }}
 </head>
